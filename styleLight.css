@@ -1,0 +1,81 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.active{
+    color: rgba(53, 53, 125, 0.635);
+}
+
+#calculator{
+    background-color:#e9e7e7;
+    padding: 12px;
+    width: 390px;
+    border-radius: 0px;
+    box-shadow: 6px 9px 15px rgba(0, 0, 0, 0.164);;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px rgb(224, 222, 222) solid;
+}
+
+#display{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 30px;
+}
+
+input{
+    width: 385px;
+    height:80px;
+    background-color:transparent ;
+    margin-bottom: 20px;
+    border: none;
+}
+input:hover{
+    border: none;
+    outline: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input:active{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: black;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    row-gap: 5px;
+    
+}
+
+button:active{
+    opacity: .8;
+}
+
+
+button{
+    height: 60px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c7c6c6;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.specialButtons{
+    background-color: #b1afaf;
+    color: rgba(21, 20, 20, 0.828);
+}
+
+#equalsButton{
+    width: 190px;
+    background-color: rgba(46, 130, 27, 0.347);
+}
